@@ -28,12 +28,6 @@ from percept_multi import percept_multi
 from percept_double import percept_double
 from percept_double_up import percept_double_up
 
-# env = gym.make('Breakout-v0' if len(sys.argv)<2 else sys.argv[1])
-# env = gym.make('Breakout-v1' if len(sys.argv)<2 else sys.argv[1])
-# env = gym.make('Breakout-v4' if len(sys.argv)<2 else sys.argv[1])
-# env = gym.make('BreakoutDeterministic-v0' if len(sys.argv)<2 else sys.argv[1])
-# env = gym.make('BreakoutDeterministic-v4' if len(sys.argv)<2 else sys.argv[1])
-# env = gym.make('BreakoutNoFrameskip-v0' if len(sys.argv)<2 else sys.argv[1])
 env = gym.make('BreakoutNoFrameskip-v4' if len(sys.argv)<2 else sys.argv[1])
 
 # To save Rewards
